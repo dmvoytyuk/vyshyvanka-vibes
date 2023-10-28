@@ -1,0 +1,61 @@
+.order-section {
+  max-width: 375px;
+  background-color: #1c2225;
+}
+.order-girl {
+}
+.order-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.order-title {
+  width: 335px;
+  color: #fcf9f9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03;
+  margin-bottom: 40px;
+}
+.order-span {
+  color: #ecd979;
+}
+
+.order-input {
+  background-color: transparent;
+  display: flex;
+  width: 335px;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  margin-bottom: 20px;
+}
+.order-textarea {
+  background-color: transparent;
+  display: flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  margin-bottom: 40px;
+}
+.order-btn {
+  width: 149px;
+  display: flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+ 
+}
