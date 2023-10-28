@@ -1,3 +1,63 @@
-<header>
-  <div class="container">Hello World!</div>
+<header class="container header">
+  <nav class="header-nav">
+    <a class="header-nav-logo" href="#"><img src="../img/logo.svg" alt="Site logo"></a>
+    <ul class="header-nav-links-list">
+      <li><a class="header-nav-links-item" href="#about">about us</a></li>
+      <li><a class="header-nav-links-item" href="#collection">our collections</a></li>
+      <li><a class="header-nav-links-item" href="#order">customer order</a></li>
+      <li><a class="header-nav-links-item" href="#testimonials">testimonials</a></li>
+    </ul>
+  </nav>
+  <div class="header-nav-right">
+    <address class="header-nav-adress">
+      <a class="header-nav-adress-tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
+    </address>
+    <ul class="header-social-list">
+      <li><a class="header-social-item" href="https://www.facebook.com/goITclub/" target="_blank">
+          <svg class="header-socail-item-svg" height="28" width="28">
+            <use href="../img/icon.svg#icon-facebook">
+            </use>
+          </svg>
+        </a></li>
+      <li><a class="header-social-item" href="https://www.instagram.com/goitclub/" target="_blank">
+          <svg class="header-socail-item-svg" height="28" width="28">
+            <use href="../img/icon.svg#icon-instagram">
+            </use>
+          </svg></a></li>
+      <li><a class="header-social-item" href="https://www.youtube.com/c/GoIT" target="_blank">
+          <svg class="header-socail-item-svg" height="28" width="28">
+            <use href="../img/icon.svg#icon-youtube">
+            </use>
+          </svg>
+        </a></li>
+    </ul>
+    <button class="header-menu-button" type="button" onclick="openMenu()">
+      <svg class="header-menu-button-svg" height="24" width="36">
+        <use href="../img/icon.svg#icon-menu-mob">
+        </use>
+      </svg>
+    </button>
+  </div>
+  <div id="mobile-menu-id" class="mobile-menu">
+    <div class="mobile-menu-top">
+      <address class="mobile-menu-adress">
+        <a class="mobile-menu-adress-tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
+      </address>
+      <button class="mobile-menu-close-button" onclick="closeMenu()">
+        <svg class="mobile-menu-close-button-svg" height="36" width="36">
+          <use href="../img/icon.svg#icon-close-mob">
+          </use>
+        </svg>
+      </button>
+    </div>
+    <nav>
+      <ul class="mobile-nav-links-list">
+        <li><a class="mobile-nav-links-item" href="#about" onclick="closeMenu()">about us</a></li>
+        <li><a class="mobile-nav-links-item" href="#collection" onclick="closeMenu()">our collections</a></li>
+        <li><a class="mobile-nav-links-item" href="#order" onclick="closeMenu()">customer order</a></li>
+        <li><a class="mobile-nav-links-item" href="#testimonials" onclick="closeMenu()">testimonials</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-background"></div>
+  </div>
 </header>

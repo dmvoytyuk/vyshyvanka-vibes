@@ -1,0 +1,245 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  gap: 60px;
+}
+
+.header-nav-logo {
+  margin-right: 12px;
+  width: 44px;
+  height: 39px;
+}
+
+.header-nav-links-list {
+  display: none;
+  gap: 25px;
+}
+
+.header-nav-links-item {
+  color: #fcf9f9;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  transition: color 250ms;
+}
+
+.header-nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-adress {
+  display: none;
+  margin-right: 20px;
+}
+
+.header-nav-adress-tel {
+  padding: 14px 28px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+  transition: border-color 250ms;
+}
+
+.header-social-list {
+  display: flex;
+  gap: 12px;
+  margin-right: 12px;
+}
+
+.header-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+  transition: border-color 250ms;
+}
+
+.header-socail-item-svg {
+  fill: #fcf9f9;
+}
+
+.header-menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.header-menu-button-svg {
+  stroke: #ecd979;
+}
+
+.header-nav-links-item:hover,
+.header-nav-links-item:focus {
+  color: #ecd979;
+}
+
+.header-nav-adress-tel:hover,
+.header-nav-adress-tel:focus,
+.header-social-item:hover,
+.header-social-item:focus {
+  border-color: #ecd979;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  width: 274px;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ecd979;
+  background-image: url('../img/bkg/webp/mob-menu.webp');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  visibility: hidden;
+  opacity: 0%;
+  pointer-events: none;
+  transition: transform 200ms linear;
+}
+
+.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 100%;
+  pointer-events: all;
+}
+
+.mobile-menu-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-menu-adress {
+  width: max-content;
+}
+
+.mobile-menu-adress-tel {
+  display: block;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+  padding: 11px 20px;
+  font-size: 12px;
+  color: #1c2225;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.mobile-menu-close-button {
+  display: block;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.mobile-menu-close-button-svg {
+  stroke: #1c2225;
+}
+
+.mobile-nav-links-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  align-self: center;
+}
+
+.mobile-nav-links-item {
+  color: #1c2225;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+}
+
+.mobile-menu-background {
+  height: 242px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .mobile-menu {
+    background-image: url('../img/bkg/webp/mob-menu-2x.webp');
+  }
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+  .header-social-list {
+    margin-right: 20px;
+  }
+
+  .mobile-menu {
+    width: 378px;
+  }
+
+  .mobile-menu {
+    background-image: url('../img/bkg/webp/tab-menu.webp');
+  }
+
+  .mobile-menu-background {
+    height: 342px;
+  }
+}
+
+@media screen and (min-width: 768px),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .mobile-menu {
+    background-image: url('../img/bkg/webp/tab-menu-2x.webp');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-nav-logo {
+    margin-right: 0;
+  }
+  .header-menu-button {
+    display: none;
+  }
+
+  .header-nav-adress {
+    display: block;
+  }
+
+  .header-nav-links-list {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}

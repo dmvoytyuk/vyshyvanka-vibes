@@ -6,6 +6,10 @@ body {
   background-color: #1c2225;
 }
 
+address {
+  font-style: normal;
+}
+
 .container {
   width: 100%;
   margin-left: auto;
