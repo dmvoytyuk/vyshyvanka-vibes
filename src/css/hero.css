@@ -1,0 +1,36 @@
+.hero-title {
+  color: #fcf9f9;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+}
+.hero-title-color {
+  color: #ecd979;
+}
+
+.hero-btn {
+  display: inline-flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.hero-link-btn {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.hero-btn-image {
+  fill: #ecd979;
+  transform: rotate(-30deg);
+}
