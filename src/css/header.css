@@ -175,10 +175,8 @@
 }
 
 .mobile-menu-background {
-  position: relative;
-  bottom: 0;
-  background-image: url('../img/elements.png');
-  background-repeat: no-repeat;
+  height: 231px;
+  background-color: #1c222543;
 }
 
 @media screen and (min-width: 375px) {
