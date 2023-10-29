@@ -7,20 +7,19 @@ const menuLink = document.getElementsByClassName('mobile-nav-links-item');
 for (let link of menuLink) {
   // console.log(link);
   link.addEventListener('click', () => {
-    console.log("clicked close button");
+    console.log("clicked link");
     menu.classList.remove('is-open');
+    console.log(menu);
   });
 }
 
 menuOpenButton.addEventListener('click', () => {
-  console.log(menu);
-  console.log('click open');
+  console.log('clicked open button');
   menu.classList.add('is-open');
   console.log(menu);
 });
 
 menuCloseButton.addEventListener('click', () => {
-  console.log(menu);
   console.log("clicked close button");
   menu.classList.remove('is-open');
   console.log(menu);
@@ -29,6 +28,8 @@ menuCloseButton.addEventListener('click', () => {
 // hide the menu when a click event occurs outside the menu
 document.addEventListener('click', (event) => {
   if (!menu.contains(event.target) && !menuOpenButton.contains(event.target)) {
+    console.log("clicked outside menu");
     menu.classList.remove('is-open');
+    console.log(menu);
   }
 });

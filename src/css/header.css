@@ -110,7 +110,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #ecd979;
-  background-image: url('../img/bkg/webp/mob-menu.webp');
+  background-image: url('./img/bkg/webp/mob-menu.webp');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
