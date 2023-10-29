@@ -1,18 +1,21 @@
 @font-face {
   font-family: Manrope;
   src: url('../fonts/Manrope-Regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: Manrope;
   src: url('../fonts/Manrope-Medium.ttf');
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
   font-family: Manrope;
   src: url('../fonts/Manrope-SemiBold.ttf');
   font-weight: 600;
+  font-display: swap;
 }
 
 body {
