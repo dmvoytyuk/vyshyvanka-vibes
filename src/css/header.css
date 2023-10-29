@@ -1,4 +1,4 @@
-.header {
+.header-wrap {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -189,6 +189,30 @@
 
 .no-scroll {
   overflow: hidden;
+}
+
+.test-box {
+  height: 1200px;
+  width: 500px;
+  background-color: aqua;
+}
+
+.fixed-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  background-color: #5c5f6076;
+  border: 2px solid #292a2a76;
+}
+
+.fixed-button-svg {
+  fill: #afc8d5d1;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
