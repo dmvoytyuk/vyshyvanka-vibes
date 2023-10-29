@@ -7,8 +7,9 @@
 }
 .order-form {
   max-width: 335px;
+  margin: 0 auto;
 }
-.order-section {
+.order-box {
   padding: 20px;
 }
 
