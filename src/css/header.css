@@ -187,6 +187,10 @@
   height: 242px;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .mobile-menu {
     background-image: url('../img/bkg/webp/mob-menu-2x.webp');
