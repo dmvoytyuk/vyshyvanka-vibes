@@ -1,8 +1,7 @@
 function openMenu() {
   console.log("clicked");
   var menu = document.getElementById("mobile-menu-id");
-  menu.classList.add("is-open");
-  
+  menu.classList.add("is-open");  
 }
 
 function closeMenu() {
