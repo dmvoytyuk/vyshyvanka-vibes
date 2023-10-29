@@ -103,7 +103,6 @@
   position: fixed;
   top: 0;
   right: 0;
-  transform: translateX(100%);
   width: 274px;
   height: 100vh;
   padding: 20px;
@@ -115,17 +114,24 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
-  visibility: hidden;
+  transition-property: transform, opacity, visibility;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  transform: translateX(100%);
   opacity: 0%;
+  visibility: hidden;
   pointer-events: none;
-  transition: transform 200ms linear;
 }
 
 .is-open {
   transform: translateX(0);
   visibility: visible;
   opacity: 100%;
-  pointer-events: all;
+  pointer-events: auto;
+
+  /* 
+  opacity: 100%;
+  pointer-events: all; */
 }
 
 .mobile-menu-top {
