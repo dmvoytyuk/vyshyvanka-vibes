@@ -193,7 +193,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .mobile-menu {
-    background-image: url('../img/bkg/png/mob-menu-2x.png');
+    background-image: url('./img/bkg/png/mob-menu-2x.png');
   }
 }
 
@@ -210,7 +210,7 @@
   }
 
   .mobile-menu {
-    background-image: url('../img/bkg/png/tab-menu.png');
+    background-image: url('./img/bkg/png/tab-menu.png');
   }
 
   .mobile-menu-background {
@@ -220,7 +220,7 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .mobile-menu {
-    background-image: url('../img/bkg/png/tab-menu-2x.png');
+    background-image: url('./img/bkg/png/tab-menu-2x.png');
   }
 }
 
