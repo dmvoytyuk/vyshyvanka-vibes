@@ -128,10 +128,6 @@
   visibility: visible;
   opacity: 100%;
   pointer-events: auto;
-
-  /* 
-  opacity: 100%;
-  pointer-events: all; */
 }
 
 .mobile-menu-top {
