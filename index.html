@@ -19,7 +19,7 @@
 
   <!-- Our styles -->
   
-  <script type="module" crossorigin src="/vyshyvanka-vibes/assets/index-a529ae30.js"></script>
+  <script type="module" crossorigin src="/vyshyvanka-vibes/assets/index-750facff.js"></script>
   <link rel="stylesheet" href="/vyshyvanka-vibes/assets/index-d1d46142.css">
 </head>
 
@@ -59,7 +59,7 @@
           </svg>
         </a></li>
     </ul>
-    <button class="header-menu-button" type="button" onclick="openMenu()">
+    <button id="menu-open-button" class="header-menu-button">
       <svg class="header-menu-button-svg" height="24" width="36">
         <use href="/vyshyvanka-vibes/assets/icon-3e56855f.svg#icon-menu-mob">
         </use>
@@ -71,7 +71,7 @@
       <address class="mobile-menu-adress">
         <a class="mobile-menu-adress-tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
       </address>
-      <button class="mobile-menu-close-button" onclick="closeMenu()">
+      <button id="menu-close-button" class="mobile-menu-close-button">
         <svg class="mobile-menu-close-button-svg" height="36" width="36">
           <use href="/vyshyvanka-vibes/assets/icon-3e56855f.svg#icon-close-mob">
           </use>
@@ -80,10 +80,10 @@
     </div>
     <nav>
       <ul class="mobile-nav-links-list">
-        <li><a class="mobile-nav-links-item" href="#about" onclick="closeMenu()">about us</a></li>
-        <li><a class="mobile-nav-links-item" href="#collection" onclick="closeMenu()">our collections</a></li>
-        <li><a class="mobile-nav-links-item" href="#order" onclick="closeMenu()">customer order</a></li>
-        <li><a class="mobile-nav-links-item" href="#testimonials" onclick="closeMenu()">testimonials</a></li>
+        <li><a class="mobile-nav-links-item" href="#about">about us</a></li>
+        <li><a class="mobile-nav-links-item" href="#collection">our collections</a></li>
+        <li><a class="mobile-nav-links-item" href="#order">customer order</a></li>
+        <li><a class="mobile-nav-links-item" href="#testimonials">testimonials</a></li>
       </ul>
     </nav>
     <div class="mobile-menu-background"></div>
@@ -136,20 +136,6 @@
     </div>
 </footer>
   </footer>
-
-  <script type="text/javascript">
-    function openMenu() {
-      console.log("clicked");
-      var menu = document.getElementById("mobile-menu-id");
-      menu.classList.add("is-open");
-    }
-
-    function closeMenu() {
-      console.log("clicked close button");
-      var menu = document.getElementById("mobile-menu-id");
-      menu.classList.remove("is-open");
-    }
-  </script>
 
   
 </body>
