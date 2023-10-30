@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -25,27 +25,39 @@
 
   <!-- Normalizer -->
   <link rel="stylesheet" href="./css/modern-normalize.min.css">
+
   <!-- Our styles -->
   <link rel="stylesheet" href="./css/styles.css" />
+
 </head>
 
 <body>
+  <!-- Button to move up -->
+  <a href="#hero-id" class="fixed-button" aria-label="go to the top of the site">
+    <svg class="fixed-button-svg" height="50" width="50">
+      <use href="./img/icon.svg#icon-arrow-up">
+      </use>
+    </svg>
+  </a>
 
-  <header>
-    <load src="partials/header.html" />
-  </header>
+  <!-- Header Voytyuk Dmytro -->
+  <load src="partials/header.html" />
 
   <main>
+    <!-- Olena -->
     <load src="partials/hero.html" />
+    <!-- Olya -->
     <load src="partials/about.html" />
+    <!-- Anton -->
     <load src="partials/collection.html" />
+    <!-- Oleksandr -->
     <load src="partials/order.html" />
+    <!-- Olya -->
     <load src="partials/testimonials.html" />
   </main>
 
-  <footer>
-    <load src="partials/footer.html" />
-  </footer>
+  <!-- Footer Kristina-->
+  <load src="partials/footer.html" />
 
   <script type="module" src="/main.js"></script>
 </body>
