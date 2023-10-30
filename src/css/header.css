@@ -5,13 +5,14 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   background-color: inherit;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  height: 52px;
   gap: 60px;
 }
 
