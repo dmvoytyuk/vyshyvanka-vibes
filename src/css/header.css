@@ -101,6 +101,7 @@
 
 .mobile-menu {
   position: fixed;
+  z-index: 999;
   top: 0;
   right: 0;
   width: 274px;
@@ -191,17 +192,12 @@
   overflow: hidden;
 }
 
-.test-box {
-  height: 1200px;
-  width: 500px;
-  background-color: aqua;
-}
-
 .fixed-button {
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
+  z-index: 998;
   bottom: 20px;
   right: 20px;
   height: 38px;
