@@ -1,6 +1,5 @@
 <section class="order-section section">
-  <div class="order-girl">
-  </div>
+  <div class="order-girl"></div>
   <div class="order-box">
     <form class="order-form" action="">
       <h2 class="order-text">
@@ -10,18 +9,18 @@
 
       <div class="order-input-box">
         <input
-        class="order-input"
-        type="text"
-        pattern="[A-Za-zА-ЯҐІЇЄа-яґіїє\s]{3,}"
-        placeholder="Enter your full name"
-        required
-      />
-      <input
-        class="order-input"
-        type="email"
-        placeholder="Enter your email"
-        required
-      />
+          class="order-input"
+          type="text"
+          pattern="[A-Za-zА-ЯҐІЇЄа-яґіїє\s]{3,}"
+          placeholder="Enter your full name"
+          required
+        />
+        <input
+          class="order-input"
+          type="email"
+          placeholder="Enter your email"
+          required
+        />
         <textarea
           class="order-coment"
           name="order-coment"
@@ -38,8 +37,30 @@
         </button>
       </div>
     </form>
-    <div class="order-background"></div>
-    <div class="order-logo-bkg"></div>
+    <div class="order-logo-bkg">
+      <picture>
+        <source
+        srcset="./img/order/1440/1440-order.webp 1x, ./img/order/1440/1440-order2x.webp 2x"
+        media="(min-width: 1440px) ">
+        <source
+        srcset="./img/order/1440/1440-order.jpg 1x, ./img/order/1440/1440-order2x.jpg 2x"
+        media="(min-width: 1440px) ">
+        <source
+          srcset="./img/order/1280/1280-order.webp 1x, ./img/order/1280/1280-order2x.webp 2x"
+          media="(min-width: 1280px) ">
+          <source
+          srcset="./img/order/1280/1280-order.jpg 1x, ./img/order/1280/1280-order2x.jpg 2x"
+          media="(min-width: 1280px) ">
+        <source
+        srcset="./img/order/tablet/tablet-order.webp 1x, ./img/order//tablet/tablet-order2x.webp 2x"
+        media="(min-width: 768px) ">
+        <source
+        srcset="./img/order/tablet/tablet-order.jpg 1x, ./img/order//tablet/tablet-order2x.jpg 2x"
+        media="(min-width: 768px) ">
+          <img class="order-img" src="../img/order/tablet/tablet-order.webp"
+          alt="vyshyvanka" width="638" height="521">
+      </picture>
+      
+    </div>
   </div>
-  
 </section>
