@@ -1,4 +1,4 @@
-.header {
+.header-wrap {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -101,6 +101,7 @@
 
 .mobile-menu {
   position: fixed;
+  z-index: 999;
   top: 0;
   right: 0;
   width: 274px;
@@ -189,6 +190,25 @@
 
 .no-scroll {
   overflow: hidden;
+}
+
+.fixed-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 998;
+  bottom: 20px;
+  right: 20px;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  background-color: #5c5f6076;
+  border: 2px solid #292a2a76;
+}
+
+.fixed-button-svg {
+  fill: #afc8d5d1;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
