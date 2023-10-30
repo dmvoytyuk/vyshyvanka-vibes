@@ -27,7 +27,12 @@
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
-  transition: color 250ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav-links-item:hover,
+.header-nav-links-item:focus {
+  color: #ecd979;
 }
 
 .header-nav-right {
@@ -48,7 +53,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.43;
-  transition: border-color 250ms;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-social-list {
@@ -66,7 +71,14 @@
   border-radius: 15px;
   border: 1px solid #fcf9f91a;
   background: #fcf9f91a;
-  transition: border-color 250ms;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav-adress-tel:hover,
+.header-nav-adress-tel:focus,
+.header-social-item:hover,
+.header-social-item:focus {
+  border-color: #ecd979;
 }
 
 .header-socail-item-svg {
@@ -85,18 +97,6 @@
 
 .header-menu-button-svg {
   stroke: #ecd979;
-}
-
-.header-nav-links-item:hover,
-.header-nav-links-item:focus {
-  color: #ecd979;
-}
-
-.header-nav-adress-tel:hover,
-.header-nav-adress-tel:focus,
-.header-social-item:hover,
-.header-social-item:focus {
-  border-color: #ecd979;
 }
 
 .mobile-menu {
