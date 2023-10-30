@@ -110,8 +110,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #ecd979;
   background-image: url('../img/bkg/png/mob-menu.png');
+  background-color: #ecd979;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
@@ -122,6 +122,14 @@
   opacity: 0%;
   visibility: hidden;
   pointer-events: none;
+}
+
+.webp .mobile-menu {
+  background-image: url('../img/bkg/webp/mob-menu.webp');
+}
+
+.no-webp .mobile-menu {
+  background-image: url('../img/bkg/png/mob-menu.png');
 }
 
 .is-open {
@@ -185,7 +193,7 @@
 }
 
 .mobile-menu-background {
-  height: 242px;
+  height: 231px;
 }
 
 .no-scroll {
@@ -233,8 +241,15 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .mobile-menu {
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) and (screen) {
+  .webp .mobile-menu {
+    background-image: url('../img/bkg/webp/mob-menu-2x.webp');
+  }
+  .no-webp .mobile-menu {
+    background-image: url('../img/bkg/png/mob-menu-2x.png');
+  }
+  .no-js .mobile-menu {
     background-image: url('../img/bkg/png/mob-menu-2x.png');
   }
 }
@@ -246,22 +261,43 @@
   .header-social-list {
     margin-right: 20px;
   }
-
   .mobile-menu {
     width: 378px;
   }
-
-  .mobile-menu {
+  .webp .mobile-menu {
+    background-image: url('../img/bkg/webp/tab-menu.webp');
+  }
+  .no-webp .mobile-menu {
     background-image: url('../img/bkg/png/tab-menu.png');
   }
-
+  .no-js .mobile-menu {
+    background-image: url('../img/bkg/png/tab-menu.png');
+  }
   .mobile-menu-background {
     height: 342px;
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .mobile-menu {
+  .webp .mobile-menu {
+    background-image: url('../img/bkg/webp/tab-menu-2x.webp');
+  }
+  .no-webp .mobile-menu {
+    background-image: url('../img/bkg/png/tab-menu-2x.png');
+  }
+  .no-js .mobile-menu {
+    background-image: url('../img/bkg/png/tab-menu-2x.png');
+  }
+}
+
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .webp .mobile-menu {
+    background-image: url('../img/bkg/webp/tab-menu-2x.webp');
+  }
+  .no-webp .mobile-menu {
+    background-image: url('../img/bkg/png/tab-menu-2x.png');
+  }
+  .no-js .mobile-menu {
     background-image: url('../img/bkg/png/tab-menu-2x.png');
   }
 }
@@ -270,6 +306,7 @@
   .header-nav-logo {
     margin-right: 0;
   }
+
   .header-menu-button {
     display: none;
   }
