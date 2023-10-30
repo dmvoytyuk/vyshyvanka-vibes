@@ -1,19 +1,27 @@
-<section class="order-section">
-  <div class="green-girl"></div>
+<section class="order-section section">
+  <div class="order-girl">
+  </div>
   <div class="order-box">
     <form class="order-form" action="">
-      <p class="order-text">
+      <h2 class="order-text">
         <span class="order-span">Your order</span> is our priority: Personalized
         approach and quality of service
-      </p>
-  
+      </h2>
+
       <div class="order-input-box">
         <input
-          class="order-input"
-          type="text"
-          placeholder="Enter your full name"
-        />
-        <input class="order-input" type="email" placeholder="Enter your email" />
+        class="order-input"
+        type="text"
+        pattern="[A-Za-zА-ЯҐІЇЄа-яґіїє\s]{3,}"
+        placeholder="Enter your full name"
+        required
+      />
+      <input
+        class="order-input"
+        type="email"
+        placeholder="Enter your email"
+        required
+      />
         <textarea
           class="order-coment"
           name="order-coment"
@@ -23,9 +31,13 @@
       </div>
       <div class="order-btn-box">
         <button class="order-btn" type="submit">
-          Send <svg class="order-svg" width="26" height="10"><use href="./img/icon.svg#icon-order-btn"></use></svg>
+          Send
+          <svg class="order-svg" width="26" height="10">
+            <use href="./img/icon.svg#icon-order-btn"></use>
+          </svg>
         </button>
       </div>
     </form>
   </div>
+  <div class="order-background"></div>
 </section>

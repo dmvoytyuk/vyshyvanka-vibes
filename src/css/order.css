@@ -1,16 +1,18 @@
-.green-girl {
-  background-image: url(./img/mobile/girl-green-mobile.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-}
 .order-form {
   max-width: 335px;
   margin: 0 auto;
 }
 .order-box {
-  padding: 20px;
+  padding: 0 20px;
+}
+
+.order-girl {
+  width: 100%;
+  height: 550px;
+  background-image: url(../img/order/mobile/mob-girl-green.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 80px auto;
 }
 
 .order-text {
@@ -57,7 +59,6 @@
   gap: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
-  
 }
 
 .order-btn {
@@ -81,6 +82,12 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
 }
 
+.order-btn:active {
+  border: 1px solid #ecd979;
+}
+.order-btn:focus {
+  border: 1px solid #ecd979;
+}
 .order-btn-box {
   display: flex;
   justify-content: center;
@@ -91,8 +98,8 @@
   transform: rotate(-30deg);
 }
 
-.order-input,
-.order-coment {
+.order-input::placeholder,
+.order-coment::placeholder {
   color: rgba(252, 249, 249, 0.5);
   font-size: 14px;
   font-weight: 400;
@@ -108,8 +115,17 @@
   .section {
     max-width: 768px;
   }
+  .order-girl {
+    width: 768px;
+    height: 776px;
+    background-image: url(../img/order/tablet/tablet-girl-green.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 100px auto;
+  }
   .order-form {
     max-width: 542px;
+    margin: 0;
   }
   .order-text {
     font-size: 44px;
@@ -126,9 +142,17 @@
     font-size: 16px;
     width: 100%;
   }
+  .order-input,
+  .order-coment::placeholder {
+    color: rgba(252, 249, 249, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+
   .order-btn {
     font-size: 16px;
-    letter-spacing: 0.04em; 
+    letter-spacing: 0.04em;
   }
 }
 @media screen and (min-width: 1280px) {
