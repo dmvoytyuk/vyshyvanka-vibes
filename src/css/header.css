@@ -1,7 +1,7 @@
 .header-wrap {
   position: sticky;
-  z-index: 997;
   top: 0;
+  z-index: 997;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
