@@ -52,12 +52,8 @@
 }
 
 
-@media screen and (min-width: 375px) {
-
-}
 
 @media screen and (min-width: 768px) {
-
   .testimonials-item:not(:last-child) {
     display: block;
   }
@@ -91,6 +87,3 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-
-}
