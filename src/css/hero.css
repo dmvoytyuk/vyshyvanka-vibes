@@ -50,10 +50,12 @@
 }
 
 .hero-link-btn:hover > .hero-btn-image {
+  transform: rotate(0);
   transform: translateX(20%);
 }
 
 .hero-link-btn:focus > .hero-btn-image {
+  transform: rotate(0);
   transform: translateX(20%);
 }
 
