@@ -64,8 +64,8 @@
 
   padding: 8px;
   border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  background: rgba(252, 249, 249, 0.1);
+  border: 1px solid #fcf9f91a;
+  background: #fcf9f91a;
   transition: border-color 250ms;
 }
 
@@ -203,12 +203,32 @@
   height: 38px;
   width: 38px;
   border-radius: 50%;
-  background-color: #5c5f6076;
-  border: 2px solid #292a2a76;
+  background-color: #fcf9f91a;
+  border: 3px solid #fcf9f91a;
 }
 
 .fixed-button-svg {
-  fill: #afc8d5d1;
+  fill: #fcf9f98a;
+}
+
+.fixed-button:hover,
+.fixed-button:focus {
+  border-color: #ecd97983;
+}
+
+.fixed-button:hover .fixed-button-svg,
+.fixed-button:focus .fixed-button-svg {
+  fill: #ecd97983;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(10%);
+  }
+  to {
+    transform: translateY(-10%);
+  }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
