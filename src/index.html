@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Vyshyvanka Vibes Store">
 
+  <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,25 +18,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vyshyvanka Vibes</title>
 
-  <!-- Normalizer -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- preload fonts -->
+  <link rel="preload" href="./fonts/Manrope-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./fonts/Manrope-Medium.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./fonts/Manrope-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Normalizer -->
+  <link rel="stylesheet" href="./css/modern-normalize.min.css">
 
   <!-- Our styles -->
   <link rel="stylesheet" href="./css/styles.css" />
+
 </head>
 
 <body>
+  <!-- Button to move up -->
+  <a href="#header" class="fixed-button">
+    <svg class="fixed-button-svg" height="50" width="50">
+      <use href="./img/icon.svg#icon-arrow-up">
+      </use>
+    </svg>
+  </a>
 
-  <header>
-    <load src="partials/header.html" />
-  </header>
+  <!-- Header -->
+  <load src="partials/header.html" />
 
   <main>
     <load src="partials/hero.html" />
@@ -44,9 +51,8 @@
     <load src="partials/testimonials.html" />
   </main>
 
-  <footer>
-    <load src="partials/footer.html" />
-  </footer>
+  <!-- Footer -->
+  <load src="partials/footer.html" />
 
   <script type="module" src="/main.js"></script>
 </body>
