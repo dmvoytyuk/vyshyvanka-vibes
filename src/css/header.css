@@ -225,9 +225,11 @@
 @keyframes bounce {
   from {
     transform: translateY(10%);
+    opacity: 20%;
   }
   to {
     transform: translateY(-10%);
+    opacity: 100%;
   }
 }
 
