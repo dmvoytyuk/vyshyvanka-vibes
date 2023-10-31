@@ -1,7 +1,7 @@
 .footer {
   padding-top: 40px;
   padding-bottom: 292px;
-  border-top: 1px solid rgba(252, 249, 249, 0.10);;
+  border-top: 1px solid rgba(252, 249, 249, 0.10);
   background-image: url(../img/bkg/png/mob-footer-bkg.png);
   background-size: contain;
 background-size: 375px;
@@ -32,6 +32,7 @@ background-size: 375px;
 
   .webp .footer {
     background-image: url(../img/bkg/webp/tab-footer-bkg.webp);
+    background-size: 174px;
   }
 }
 
@@ -53,6 +54,7 @@ background-size: 375px;
 
   .webp .footer {
     background-image: url(../img/bkg/webp/1280-footer-bkg.webp);
+    background-size: 336px;
   }
 
 }
@@ -75,6 +77,7 @@ background-size: 375px;
 
   .webp .footer {
     background-image: url(../img/bkg/webp/1440-footer-bkg.webp);
+    background-size: 496px;
   }
 }
 
