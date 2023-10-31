@@ -417,12 +417,14 @@
       height: 484px; */
   }
 
-  /* @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
   .webp .order-logo-bkg {
       background-image: url(../img/bkg/png/1440-order-bkg-2x.png);
+      background-size: cover;
+      width: 545px;
       
     }
-  } */
+  }
 }
