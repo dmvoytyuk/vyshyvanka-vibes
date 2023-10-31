@@ -1,6 +1,6 @@
 <section class="order-section section">
   <div class="order-girl container"></div>
-  <div id="order"  class="order-box">
+  <div id="order" class="container order-box">
     <form class="order-form" action="">
       <h2 class="order-text">
         <span class="order-span">Your order</span> is our priority: Personalized
@@ -38,24 +38,46 @@
         </button>
       </div>
     </form>
-    <div >
+    
       <picture class="order-logo-bkg">
         <source
-          srcset="./img/order/1280/1280-order.webp 1x, ./img/order/1280/1280-order2x.webp 2x"
-          media="(min-width: 769px)" type="image/webp">
-          <source
-          srcset="./img/order/1280/1280-order.jpg 1x, ./img/order/1280/1280-order2x.jpg 2x"
-          media="(min-width: 769px)" type="image/jpeg">
+          srcset="
+            ./img/order/1280/1280-order.webp   1x,
+            ./img/order/1280/1280-order2x.webp 2x
+          "
+          media="(min-width: 769px)"
+          type="image/webp"
+        />
         <source
-        srcset="./img/order/tablet/tablet-order.webp 1x, ./img/order//tablet/tablet-order2x.webp 2x"
-        media="(max-width: 768px)" type="image/webp">
+          srcset="
+            ./img/order/1280/1280-order.jpg   1x,
+            ./img/order/1280/1280-order2x.jpg 2x
+          "
+          media="(min-width: 769px)"
+          type="image/jpeg"
+        />
         <source
-        srcset="./img/order/tablet/tablet-order.jpg 1x, ./img/order//tablet/tablet-order2x.jpg 2x"
-        media="(max-width: 768px)" type="image/jpeg">
-          <img class="order-img" src="../img/order/tablet/tablet-order.webp"
-          alt="vyshyvanka" >
+          srcset="
+            ./img/order/tablet/tablet-order.webp    1x,
+            ./img/order//tablet/tablet-order2x.webp 2x
+          "
+          media="(max-width: 768px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            ./img/order/tablet/tablet-order.jpg    1x,
+            ./img/order//tablet/tablet-order2x.jpg 2x
+          "
+          media="(max-width: 768px)"
+          type="image/jpeg"
+        />
+        <img
+          class="order-img"
+          src="../img/order/tablet/tablet-order.webp"
+          alt="vyshyvanka"
+        />
       </picture>
-      
-    </div>
+    
   </div>
 </section>
