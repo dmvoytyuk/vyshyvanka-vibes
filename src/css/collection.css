@@ -49,6 +49,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  .collection-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 20px;
+  }
+
+  .collection-list-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1280px) {
