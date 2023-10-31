@@ -1,73 +1,90 @@
 .footer {
   padding-top: 40px;
   padding-bottom: 292px;
-  width: 100%;
-  max-width: 375px;
-  margin: 0 auto;
   border-top: 0.1px solid rgba(252, 249, 249, 0.4);
   background-image: url(../img/bkg/png/mob-footer-bkg.png);
   background-size: contain;
 background-size: 375px;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: bottom center;
 
 }
 
-.footer .footer-background {
-  background-image: url(../img/bkg/png/mob-footer-bkg.png);
-  /* position: relative; */
-  width: 100%;
-}
-
-.footer-background{
-  /* position: absolute; */
- margin: 0 0 0 90px; }
 
 
 @media (min-resolution: 192dpi) {
-  .footer {
+  .no-webp .footer {
     background-image: url(../img/bkg/png/mob-footer-bkg-2x.png);
+  }
+
+  .webp .footer {
+    background-image: url(../img/bkg/webp/mob-footer-bkg-2x.webp);
   }
 }
 @media screen and (min-width: 768px) {
-  .footer {
-    max-width: 744px;
+  .no-webp .footer {
+    
     background-image: url(../img/bkg/png/tab-footer-bkg.png);
-    background-position: right;
+    background-position: center right;
+    background-size: 174px;
     padding-bottom: 40px;
+  }
+
+  .webp .footer {
+    background-image: url(../img/bkg/webp/tab-footer-bkg.webp);
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .footer {
+  .no-webp .footer {
     background-image: url(../img/bkg/png/tab-footer-bkg-2x.png);
+  }
+
+  .webp .footer {
+    background-image: url(../img/bkg/webp/tab-footer-bkg-2x.webp);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    max-width: 1120px;
+  .no-webp .footer {
     background-image: url(../img/bkg/png/1280-footer-bkg.png);
+    background-size: 336px;
+  }
+
+  .webp .footer {
+    background-image: url(../img/bkg/webp/1280-footer-bkg.webp);
   }
 
 }
 
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .footer{
+  .no-webp .footer{
     background-image: url(../img/bkg/png/1280-footer-bkg-2x.png);
+  }
+
+  .webp .footer {
+    background-image: url(../img/bkg/webp/1280-footer-bkg-2x.webp);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .footer {
-    max-width: 1280px;
+  .no-webp .footer {
     background-image: url(../img/bkg/png/1440-footer-bkg.png);
+    background-size: 496px;
+  }
+
+  .webp .footer {
+    background-image: url(../img/bkg/webp/1440-footer-bkg.webp);
   }
 }
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .footer {
+  .no-webp .footer {
     background-image: url(../img/bkg/png/1440-footer-bkg-2x.png);
+  }
+
+  .webp .footer {
+    background-image: url(../img/bkg/webp/1440-footer-bkg-2x.webp);
   }
 }
 
