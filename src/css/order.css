@@ -353,6 +353,7 @@
   }
   .webp .order-logo-bkg {
     background-image: url(../img/bkg/png/1280-order-bkg.png);
+    margin-left: -100px;
     /* width: 545px; 
       height: 484px; */
   }
@@ -394,4 +395,34 @@
       background-image: url(../img/order/1440/1440-girl-green2x.jpg);
     }
   }
+  .webp .order-logo-bkg {
+    background-image: url(../img/bkg/webp/1440-order-bkg.webp);
+    /* width: 545px; 
+      height: 484px; */
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+  .webp .order-logo-bkg {
+      background-image: url(../img/bkg/webp/1440-order-bkg-2x.webp);
+      /* width: 545px; 
+      height: 484px; */
+    }
+  }
+  .webp .order-logo-bkg {
+    background-image: url(../img/bkg/png/1440-order-bkg.png);
+    margin-left: -100px;
+    /* width: 545px; 
+      height: 484px; */
+  }
+
+  /* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+  .webp .order-logo-bkg {
+      background-image: url(../img/bkg/png/1440-order-bkg-2x.png);
+      
+    }
+  } */
 }
