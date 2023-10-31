@@ -1,7 +1,7 @@
 .footer {
   padding-top: 40px;
   padding-bottom: 292px;
-  border-top: 0.1px solid rgba(252, 249, 249, 0.4);
+  border-top: 1px solid rgba(252, 249, 249, 0.10);;
   background-image: url(../img/bkg/png/mob-footer-bkg.png);
   background-size: contain;
 background-size: 375px;
