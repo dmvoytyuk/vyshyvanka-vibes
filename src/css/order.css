@@ -54,6 +54,7 @@
   padding: 14px 16px;
   align-items: flex-start;
   gap: 8px;
+  color: rgba(252, 249, 249, 0.5);
   width: 100%;
   background-color: transparent;
 }
@@ -63,9 +64,11 @@
   background-color: transparent;
   width: 100%;
   display: flex;
+  resize: none;
   padding: 14px 16px;
   align-items: flex-start;
   gap: 8px;
+  color: rgba(252, 249, 249, 0.5);
   width: 100%;
   border-radius: 8px;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -97,6 +100,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .order-btn:hover,
@@ -111,7 +115,17 @@
 .order-svg {
   fill: #ecd979;
   transform: rotate(-30deg);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.order-btn:hover > .order-svg {
+    transform: rotate(0);
+    transform: translateX(20%);
+  }
+  
+  .order-btn:focus > .order-svg {
+    transform: rotate(0);
+    transform: translateX(20%);
+  }
 
 .order-input::placeholder,
 .order-coment::placeholder {
@@ -126,7 +140,7 @@
 }
 .order-logo-bkg {
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   background-image: url(../img/bkg/png/tab-order-bkg.png);
   display: none;
   background-repeat: no-repeat;
@@ -136,7 +150,7 @@
 }
 
 .order-img {
-  width: 638px;
+  
   height: 521px;
   margin-right: 0;
 }
@@ -145,15 +159,21 @@
   .section {
     max-width: 375px;
   }
+ 
 }
-
 @media screen and (min-width: 768px) {
+    .order-img {
+        width: 638px;
+      }
+
   .section {
     max-width: 768px;
   }
   .order-logo-bkg {
     display: flex;
   }
+
+
 
   .webp .order-girl {
     width: 768px;
@@ -221,6 +241,10 @@
   .section {
     max-width: 1280px;
   }
+  .order-img {
+    width: 524px;
+  }
+
   .order-form {
     margin-bottom: 0;
     margin-left: 50px;
@@ -244,7 +268,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .order-girl {
+   .no-webp .order-girl {
       background-image: url(../img/order/1280/1280-girl-green2x.jpg);
     }
   }
@@ -255,6 +279,7 @@
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 150px;
+    margin-right: 100px;
   }
   .webp .order-background {
     background-image: url(../img/order/1280/1280-order.webp);
@@ -274,8 +299,39 @@
   .section {
     max-width: 1440px;
   }
-  .order-girl {
+  .order-logo-bkg {
+    margin-left: 0;
+  }
+  .order-text {
+    width: 666px;
+  }
+  .order-input,
+  .order-coment {
+    width: 508px;
+  }
+  .order-form {
+    max-width: 666px;
+  }
+  .webp .order-girl {
     width: 1440px;
     background-image: url(../img/order/1440/1440-girl-green.webp);
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .webp .order-girl {
+      background-image: url(../img/order/1440/1440-girl-green2x.webp);
+    }
+  }
+  .no-webp .order-girl {
+    background-image: url(../img/order/1440/1440-girl-green.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .no-webp .order-girl {
+      background-image: url(../img/order/1440/1440-girl-green2x.jpg);
+    }
+}
+
 }
