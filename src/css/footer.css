@@ -1,12 +1,12 @@
 .footer {
     padding-top: 40px;
     padding-bottom: 292px;
-    width: 100%;
+    
     max-width: 375px;
     margin: 0 auto;
   
     background-image: url(../img/bkg/png/mob-footer-bkg.png);
-    background-size: contain;
+    background-size: 375px;
     background-repeat: no-repeat;
     background-position: bottom;
   }
@@ -59,16 +59,8 @@
     }
   }
   
-  .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   
-  .footer-container {
-  }
+
   
   .footer-menu {
     max-width: 280px;
@@ -139,8 +131,7 @@
       margin-right: 0px;
     }
   }
-  .footer-menu-item {
-  }
+
   .footer-menu-link {
     color: #fcf9f9;
     font-size: 14px;
