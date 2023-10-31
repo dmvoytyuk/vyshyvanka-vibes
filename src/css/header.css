@@ -1,13 +1,9 @@
 .header-wrap {
-  position: sticky;
-  top: 0;
-  z-index: 50;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   padding-top: 3px;
   padding-bottom: 3px;
-  background-color: inherit;
 }
 
 .header-nav {
