@@ -32,7 +32,9 @@ background-size: 375px;
 
   .webp .footer {
     background-image: url(../img/bkg/webp/tab-footer-bkg.webp);
+    background-position: center right;
     background-size: 174px;
+    padding-bottom: 40px;
   }
 }
 
