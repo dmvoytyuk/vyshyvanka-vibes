@@ -212,23 +212,23 @@
   height: 38px;
   width: 38px;
   border-radius: 50%;
-  background-color: #fcf9f91a;
-  border: 3px solid #fcf9f91a;
+  background-color: #5f5f5fb2;
+  border: 3px solid #3d3c3cb7;
   box-shadow: 5px 9px 7px -2px rgba(0, 0, 0, 0.18);
 }
 
 .fixed-button-svg {
-  fill: #fcf9f98a;
+  fill: #d4cecebc;
 }
 
 .fixed-button:hover,
 .fixed-button:focus {
-  border-color: #ecd97983;
+  border-color: #8a7d06c5;
 }
 
 .fixed-button:hover .fixed-button-svg,
 .fixed-button:focus .fixed-button-svg {
-  fill: #ecd97983;
+  fill: #9b830aad;
   animation: bounce 1s infinite;
 }
 
