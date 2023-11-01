@@ -81,7 +81,7 @@
 .order-svg {
   fill: #ecd979;
   transform: rotate(-30deg);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-btn:hover > .order-svg {
   transform: rotate(0);
@@ -107,8 +107,27 @@
 }
 
 .order-box {
+  padding-top: 630px;
   display: flex;
   flex-direction: column;
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-image: url(../img/order/mobile/mob-girl-green.jpg);
+}
+
+.webp .order-box {
+  background-image: url(../img/order/mobile/mob-girl-green.webp);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .webp .order-box {
+    background-image: url(../img/order/mobile/mob-girl-green2x.webp);
+  }
+  .no-webp .order-box {
+    background-image: url(../img/order/mobile/mob-girl-green2x.jpg);
+  }
 }
 
 .order-img {
@@ -124,9 +143,16 @@
 /*? ========================== 768 ====================== */
 
 @media screen and (min-width: 768px) {
+  .order-box {
+    padding-top: 876px;
+    background-repeat: no-repeat;
+    background-size: 768px;
+  }
+
   .order-img {
     width: 638px;
   }
+
   .order-logo-bkg {
     background-image: url(../img/bkg/png/tab-order-bkg.png);
     background-repeat: no-repeat;
@@ -178,6 +204,10 @@
 /*? ======================== 1280 ===================== */
 
 @media screen and (min-width: 1280px) {
+  .order-logo-bkg {
+    padding-bottom: 0;
+  }
+
   .order-img {
     width: 524px;
   }
@@ -188,6 +218,7 @@
   }
 
   .order-box {
+    padding-top: 916px;
     flex-direction: row-reverse;
   }
 }
@@ -215,63 +246,27 @@
 
 /*! ===================== Picture ====================== */
 
-/*? ===================== 320 ======================= */
-
-.webp .order-girl {
-  width: 100%;
-  height: 550px;
-  background-image: url(../img/order/mobile/mob-girl-green.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 80px;
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .webp .order-girl {
-    background-image: url(../img/order/mobile/mob-girl-green2x.webp);
-  }
-}
-
-.no-webp .order-girl {
-  background-image: url(../img/order/mobile/mob-girl-green.jpg);
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .no-webp .order-girl {
-    background-image: url(../img/order/mobile/mob-girl-green2x.jpg);
-  }
-}
-
 /*? ========================== 768 ====================== */
 
 @media screen and (min-width: 768px) {
-  .webp .order-girl {
-    width: 768px;
-    height: 776px;
+  .order-box {
+    background-size: 768px;
+  }
+  .webp .order-box {
     background-image: url(../img/order/tablet/tablet-girl-green.webp);
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .webp .order-girl {
-      background-image: url(../img/order/tablet/tablet-girl-green2x.webp);
-    }
-  }
-
-  .no-webp .order-girl {
+  .no-webp .order-box {
     background-image: url(../img/order/tablet/tablet-girl-green.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .no-webp .order-girl {
+    .webp .order-box {
+      background-image: url(../img/order/tablet/tablet-girl-green2x.webp);
+    }
+    .no-webp .order-box {
       background-image: url(../img/order/tablet/tablet-girl-green2x.jpg);
     }
   }
@@ -280,34 +275,39 @@
 /*? ======================== 1280 ===================== */
 
 @media screen and (min-width: 1280px) {
-  .webp .order-girl {
-    width: 1282px;
-    height: 776px;
+  .order-box {
+    background-size: 1282px;
+  }
+
+  .webp .order-box {
     background-image: url(../img/order/1280/1280-girl-green.webp);
   }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .webp .order-girl {
-      background-image: url(../img/order/1280/1280-girl-green2x.webp);
-    }
-  }
-
-  .no-webp .order-girl {
+  .no-webp .order-box {
     background-image: url(../img/order/1280/1280-girl-green.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .no-webp .order-girl {
+    .webp .order-box {
+      background-image: url(../img/order/1280/1280-girl-green2x.webp);
+    }
+    .no-webp .order-box {
       background-image: url(../img/order/1280/1280-girl-green2x.jpg);
     }
   }
 
+  .order-logo-bkg {
+    background-size: 289px;
+    background-position: bottom left;
+  }
+
   .webp .order-logo-bkg {
     background-image: url(../img/bkg/webp/1280-order-bkg.webp);
+  }
+
+  .no-webp .order-logo-bkg {
+    background-image: url(../img/bkg/png/1280-order-bkg.png);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -316,19 +316,8 @@
     .webp .order-logo-bkg {
       background-image: url(../img/bkg/webp/1280-order-bkg-2x.webp);
     }
-  }
-  .webp .order-logo-bkg {
-    background-image: url(../img/bkg/png/1280-order-bkg.png);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .webp .order-logo-bkg {
+    .no-webp .order-logo-bkg {
       background-image: url(../img/bkg/png/1280-order-bkg-2x.png);
-      background-size: 289px;
-      background-position: bottom left;
-      padding: inherit;
     }
   }
 }
@@ -336,32 +325,38 @@
 /*? ====================== 1440 ===================== */
 
 @media screen and (min-width: 1440px) {
-  .webp .order-girl {
-    width: 1440px;
+  .order-box {
+    background-size: 1440px;
+  }
+  .webp .order-box {
     background-image: url(../img/order/1440/1440-girl-green.webp);
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .webp .order-girl {
-      background-image: url(../img/order/1440/1440-girl-green2x.webp);
-    }
-  }
-
-  .no-webp .order-girl {
+  .no-webp .order-box {
     background-image: url(../img/order/1440/1440-girl-green.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .no-webp .order-girl {
+    .webp .order-box {
+      background-image: url(../img/order/1440/1440-girl-green2x.webp);
+    }
+    .no-webp .order-box {
       background-image: url(../img/order/1440/1440-girl-green2x.jpg);
     }
   }
+
   .webp .order-logo-bkg {
     background-image: url(../img/bkg/webp/1440-order-bkg.webp);
+  }
+
+  .order-logo-bkg {
+    background-size: 325px;
+  }
+
+  .no-webp .order-logo-bkg {
+    background-image: url(../img/bkg/png/1440-order-bkg.png);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -370,17 +365,8 @@
     .webp .order-logo-bkg {
       background-image: url(../img/bkg/webp/1440-order-bkg-2x.webp);
     }
-  }
-  .webp .order-logo-bkg {
-    background-image: url(../img/bkg/png/1440-order-bkg.png);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .webp .order-logo-bkg {
+    .no-webp .order-logo-bkg {
       background-image: url(../img/bkg/png/1440-order-bkg-2x.png);
-      background-size: 325px;
     }
   }
 }
