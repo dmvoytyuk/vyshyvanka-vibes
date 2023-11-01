@@ -1,7 +1,7 @@
 .about {
   background-image: url(../img/bkg/png/mob-about-bkg.png);
   background-repeat: no-repeat;
-  background-position: right bottom -62px;
+  background-position: right bottom 18px;
   background-size: 250px;
 }
 .webp .about {
@@ -58,7 +58,7 @@
 @media screen and (min-width: 768px) {
   .about {
     background-image: url(../img/bkg/png/tab-about-bkg.png);
-    background-position: right bottom -50px;
+    background-position: right bottom 50px;
     background-size: 369px;
   }
   .webp .about {
