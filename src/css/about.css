@@ -51,11 +51,8 @@
   letter-spacing: -0.04em;
 }
 
-.about-container-img {
-  border-radius: 4px;
-}
-
 .about-img {
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
