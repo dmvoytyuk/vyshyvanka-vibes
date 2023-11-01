@@ -220,6 +220,7 @@
   .order-box {
     padding-top: 916px;
     flex-direction: row-reverse;
+    padding-left: 64px;
   }
 }
 
@@ -241,6 +242,9 @@
 
   .order-form {
     max-width: 666px;
+  }
+  .order-box {
+    padding-left: 100px;
   }
 }
 
