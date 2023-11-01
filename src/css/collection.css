@@ -12,6 +12,22 @@
   background-image: url('../img/bkg/png/mob-collection.png');
 }
 
+@media screen {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .webp .mobile-menu {
+      background-image: url('../img/bkg/webp/mob-collection-bkg-2x.webp');
+    }
+    .no-webp .mobile-menu {
+      background-image: url('../img/bkg/png/mob-collection.png');
+    }
+    .no-js .mobile-menu {
+      background-image: url('../img/bkg/png/mob-collection-2x.png');
+    }
+  }
+}
+
 .collection-title {
   color: #fcf9f9;
   font-size: 32px;
@@ -85,6 +101,20 @@
     background-image: url('../img/bkg/png/tab-collection.png');
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .webp .mobile-menu {
+      background-image: url('../img/bkg/webp/tab-collection-bkg-2x.webp');
+    }
+    .no-webp .mobile-menu {
+      background-image: url('../img/bkg/png/tab-collection-2x.png');
+    }
+    .no-js .mobile-menu {
+      background-image: url('../img/bkg/png/tab-collection-2x.png');
+    }
+  }
+
   .collection-title {
     color: #fcf9f9;
     font-size: 44px;
@@ -130,6 +160,20 @@
     background-image: url('../img/bkg/png/1280-collection.png');
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .webp .mobile-menu {
+      background-image: url('../img/bkg/webp/1280-collection-bkg-2x.webp');
+    }
+    .no-webp .mobile-menu {
+      background-image: url('../img/bkg/png/1280-collection-2x.png');
+    }
+    .no-js .mobile-menu {
+      background-image: url('../img/bkg/png/1280-collection-2x.png');
+    }
+  }
+
   .collection-list {
     column-gap: 20px;
     row-gap: 40px;
@@ -158,6 +202,20 @@
 
   .no-webp .our-collection {
     background-image: url('../img/bkg/png/1440-collection.png');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .webp .mobile-menu {
+      background-image: url('../img/bkg/webp/1440-collection-bkg-2x.webp');
+    }
+    .no-webp .mobile-menu {
+      background-image: url('../img/bkg/png/1440-collection-2x.png');
+    }
+    .no-js .mobile-menu {
+      background-image: url('../img/bkg/png/1440-collection-2x.png');
+    }
   }
 
   .collection-image {
