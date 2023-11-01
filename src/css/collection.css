@@ -54,6 +54,10 @@
   margin-bottom: 18px;
 }
 
+.collection-image {
+  border-radius: 4px;
+}
+
 .overlay-text {
   position: absolute;
   top: 0;
@@ -62,6 +66,7 @@
   line-height: normal;
   letter-spacing: -0.04em;
   padding: 40px;
+  border-radius: 4px;
   background-color: #1c2225db;
   backdrop-filter: blur(10px);
   height: 100%;
