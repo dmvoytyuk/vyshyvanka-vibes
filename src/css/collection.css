@@ -16,13 +16,13 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .webp .mobile-menu {
+    .webp .our-collection {
       background-image: url('../img/bkg/webp/mob-collection-bkg-2x.webp');
     }
-    .no-webp .mobile-menu {
+    .no-webp .our-collection {
       background-image: url('../img/bkg/png/mob-collection.png');
     }
-    .no-js .mobile-menu {
+    .no-js .our-collection {
       background-image: url('../img/bkg/png/mob-collection-2x.png');
     }
   }
@@ -105,13 +105,13 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .webp .mobile-menu {
+    .webp .our-collection {
       background-image: url('../img/bkg/webp/tab-collection-bkg-2x.webp');
     }
-    .no-webp .mobile-menu {
+    .no-webp .our-collection {
       background-image: url('../img/bkg/png/tab-collection-2x.png');
     }
-    .no-js .mobile-menu {
+    .no-js .our-collection {
       background-image: url('../img/bkg/png/tab-collection-2x.png');
     }
   }
@@ -164,13 +164,13 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .webp .mobile-menu {
+    .webp .our-collection {
       background-image: url('../img/bkg/webp/1280-collection-bkg-2x.webp');
     }
-    .no-webp .mobile-menu {
+    .no-webp .our-collection {
       background-image: url('../img/bkg/png/1280-collection-2x.png');
     }
-    .no-js .mobile-menu {
+    .no-js .our-collection {
       background-image: url('../img/bkg/png/1280-collection-2x.png');
     }
   }
@@ -208,13 +208,13 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .webp .mobile-menu {
+    .webp .our-collection {
       background-image: url('../img/bkg/webp/1440-collection-bkg-2x.webp');
     }
-    .no-webp .mobile-menu {
+    .no-webp .our-collection {
       background-image: url('../img/bkg/png/1440-collection-2x.png');
     }
-    .no-js .mobile-menu {
+    .no-js .our-collection {
       background-image: url('../img/bkg/png/1440-collection-2x.png');
     }
   }
