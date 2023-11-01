@@ -1,19 +1,27 @@
-.about-container {
+.about {
   background-image: url(../img/bkg/png/mob-about-bkg.png);
   background-repeat: no-repeat;
-  background-position: left 105px top 611px;
-  background-size: 459px 408px;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  background-position: right bottom -62px;
+  background-size: 250px;
 }
-
+.webp .about {
+  background-image: url(../img/bkg/webp/mob-about-bkg.webp);
+}
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-  .about-container {
+  .no.webp .about {
     background-image: url(../img/bkg/png/mob-about-bkg-2x.png);
   }
+  .webp .about {
+  background-image: url(../img/bkg/webp/mob-about-bkg-2x.webp);
+}
+}
+
+.about-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-container-text {
@@ -44,15 +52,33 @@
 }
 
 .about-container-img {
-  width: 100%;
   border-radius: 4px;
-  background: url(<path-to-image>), lightgray -100.708px -21.583px / 148.246% 132.699% no-repeat;
+  
 }
 
 .about-img {
  }
 
 @media screen and (min-width: 768px) {
+.about {
+  background-image: url(../img/bkg/png/tab-about-bkg.png);
+  background-position: right bottom -50px;
+  background-size: 369px;
+}
+.webp .about {
+  background-image: url(../img/bkg/webp/tab-about-bkg.webp);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.no.webp .about {
+  background-image: url(../img/bkg/png/tab-about-bkg-2x.png);
+}
+.webp .about {
+  background-image: url(../img/bkg/webp/tab-about-bkg-2x.webp);
+}
+}
   .about-container-text {
     margin-bottom: 40px;
   }
@@ -73,6 +99,24 @@
 }
 
 @media screen and (min-width: 1280px) {
+.about {
+  background-image: url(../img/bkg/png/1280-about-bkg.png);
+  background-position: right bottom -70px;
+  background-size: 385px;
+}
+.webp .about {
+  background-image: url(../img/bkg/webp/1280-about-bkg.webp);
+}
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.no.webp .about {
+  background-image: url(../img/bkg/png/1280-about-bkg-2x.png);
+}
+.webp .about {
+  background-image: url(../img/bkg/webp/1280-about-bkg-2x.webp);
+}
+  }
   .about-container {
     display: flex;
     gap: 50px;
@@ -88,6 +132,23 @@
 }
 
 @media screen and (min-width: 1440px) {
+.about {
+  background-image: url(../img/bkg/png/1440-about-bkg.png);
+  background-size: 545px;
+}
+.webp .about {
+  background-image: url(../img/bkg/webp/1440-about-bkg.webp);
+}
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.no.webp .about {
+  background-image: url(../img/bkg/png/1440-about-bkg-2x.png);
+}
+.webp .about {
+  background-image: url(../img/bkg/webp/1440-about-bkg-2x.webp);
+}
+}
 .about-container-text {
   max-width: 481px;
 }
