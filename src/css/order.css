@@ -243,6 +243,9 @@
   .order-form {
     max-width: 666px;
   }
+  .order-box {
+    padding-left: 100px;
+  }
 }
 
 /*! ===================== Picture ====================== */
