@@ -47,6 +47,7 @@
   align-items: flex-start;
   gap: 8px;
   color: #fcf9f9;
+  outline: none;
   width: 100%;
   background-color: transparent;
 }
@@ -60,6 +61,7 @@
   padding: 14px 16px;
   align-items: flex-start;
   gap: 8px;
+  outline: none;
   color: #fcf9f9;
   border-radius: 8px;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -72,6 +74,15 @@
   gap: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.order-input:hover,
+.order-input:focus {
+  border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.order-coment:hover,
+.order-coment:focus {
+  border: 1px solid rgba(252, 249, 249, 0.60);
 }
 
 .order-btn {
