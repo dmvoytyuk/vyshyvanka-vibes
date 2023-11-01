@@ -1,8 +1,8 @@
 .about {
   background-image: url(../img/bkg/png/mob-about-bkg.png);
   background-repeat: no-repeat;
-  background-position: right -229px bottom -62px;
-  background-size: 459px 408px;
+  background-position: right bottom -62px;
+  background-size: 250px;
 }
 .webp .about {
   background-image: url(../img/bkg/webp/mob-about-bkg.webp);
@@ -62,7 +62,8 @@
 @media screen and (min-width: 768px) {
 .about {
   background-image: url(../img/bkg/png/tab-about-bkg.png);
-  background-position: right -208px bottom -50px;
+  background-position: right bottom -50px;
+  background-size: 369px;
 }
 .webp .about {
   background-image: url(../img/bkg/webp/tab-about-bkg.webp);
@@ -100,7 +101,8 @@
 @media screen and (min-width: 1280px) {
 .about {
   background-image: url(../img/bkg/png/1280-about-bkg.png);
-  background-position: right -100px bottom -80px;
+  background-position: right bottom -70px;
+  background-size: 385px;
 }
 .webp .about {
   background-image: url(../img/bkg/webp/1280-about-bkg.webp);
@@ -132,7 +134,7 @@
 @media screen and (min-width: 1440px) {
 .about {
   background-image: url(../img/bkg/png/1440-about-bkg.png);
-  background-position: right -229px bottom -62px;
+  background-size: 545px;
 }
 .webp .about {
   background-image: url(../img/bkg/webp/1440-about-bkg.webp);
