@@ -59,7 +59,8 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 40px;
-  background-color: #1c2225a0;
+  background-color: #1c222589;
+  backdrop-filter: blur(10px);
   height: 100%;
   width: 100%;
   transform: translateY(100%);
