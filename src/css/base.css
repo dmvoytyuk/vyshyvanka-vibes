@@ -18,6 +18,10 @@
   font-display: swap;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Manrope', sans-serif;
