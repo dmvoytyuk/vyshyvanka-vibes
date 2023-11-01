@@ -6,7 +6,6 @@ const body = document.getElementsByTagName('body');
 
 console.log(body);
 
-
 // show/hide the menu when the button is clicked
 for (let link of menuLink) {
   // console.log(link);
