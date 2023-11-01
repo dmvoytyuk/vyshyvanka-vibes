@@ -8,14 +8,14 @@
   background-image: url(../img/bkg/webp/mob-about-bkg.webp);
 }
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .no.webp .about {
     background-image: url(../img/bkg/png/mob-about-bkg-2x.png);
   }
   .webp .about {
-  background-image: url(../img/bkg/webp/mob-about-bkg-2x.webp);
-}
+    background-image: url(../img/bkg/webp/mob-about-bkg-2x.webp);
+  }
 }
 
 .about-container {
@@ -37,7 +37,7 @@
 }
 
 .about-text-description {
-  color: rgba(252, 249, 249, 0.40);
+  color: rgba(252, 249, 249, 0.4);
   font-size: 14px;
   line-height: normal;
   letter-spacing: -0.04em;
@@ -45,7 +45,7 @@
 
 .about-text-assortment {
   margin-top: 20px;
-  color: rgba(252, 249, 249, 0.40);
+  color: rgba(252, 249, 249, 0.4);
   font-size: 14px;
   line-height: normal;
   letter-spacing: -0.04em;
@@ -53,32 +53,31 @@
 
 .about-container-img {
   border-radius: 4px;
-  
 }
 
 .about-img {
- }
+}
 
 @media screen and (min-width: 768px) {
-.about {
-  background-image: url(../img/bkg/png/tab-about-bkg.png);
-  background-position: right bottom -50px;
-  background-size: 369px;
-}
-.webp .about {
-  background-image: url(../img/bkg/webp/tab-about-bkg.webp);
-}
+  .about {
+    background-image: url(../img/bkg/png/tab-about-bkg.png);
+    background-position: right bottom -50px;
+    background-size: 369px;
+  }
+  .webp .about {
+    background-image: url(../img/bkg/webp/tab-about-bkg.webp);
+  }
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-.no.webp .about {
-  background-image: url(../img/bkg/png/tab-about-bkg-2x.png);
-}
-.webp .about {
-  background-image: url(../img/bkg/webp/tab-about-bkg-2x.webp);
-}
-}
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .no.webp .about {
+      background-image: url(../img/bkg/png/tab-about-bkg-2x.png);
+    }
+    .webp .about {
+      background-image: url(../img/bkg/webp/tab-about-bkg-2x.webp);
+    }
+  }
   .about-container-text {
     margin-bottom: 40px;
   }
@@ -99,23 +98,23 @@
 }
 
 @media screen and (min-width: 1280px) {
-.about {
-  background-image: url(../img/bkg/png/1280-about-bkg.png);
-  background-position: right bottom -70px;
-  background-size: 385px;
-}
-.webp .about {
-  background-image: url(../img/bkg/webp/1280-about-bkg.webp);
-}
+  .about {
+    background-image: url(../img/bkg/png/1280-about-bkg.png);
+    background-position: right bottom 70px;
+    background-size: 385px;
+  }
+  .webp .about {
+    background-image: url(../img/bkg/webp/1280-about-bkg.webp);
+  }
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-.no.webp .about {
-  background-image: url(../img/bkg/png/1280-about-bkg-2x.png);
-}
-.webp .about {
-  background-image: url(../img/bkg/webp/1280-about-bkg-2x.webp);
-}
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .no.webp .about {
+      background-image: url(../img/bkg/png/1280-about-bkg-2x.png);
+    }
+    .webp .about {
+      background-image: url(../img/bkg/webp/1280-about-bkg-2x.webp);
+    }
   }
   .about-container {
     display: flex;
@@ -128,28 +127,27 @@
     margin-bottom: 0;
     max-width: 436px;
   }
-
 }
 
 @media screen and (min-width: 1440px) {
-.about {
-  background-image: url(../img/bkg/png/1440-about-bkg.png);
-  background-size: 545px;
-}
-.webp .about {
-  background-image: url(../img/bkg/webp/1440-about-bkg.webp);
-}
+  .about {
+    background-image: url(../img/bkg/png/1440-about-bkg.png);
+    background-size: 545px;
+  }
+  .webp .about {
+    background-image: url(../img/bkg/webp/1440-about-bkg.webp);
+  }
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-.no.webp .about {
-  background-image: url(../img/bkg/png/1440-about-bkg-2x.png);
-}
-.webp .about {
-  background-image: url(../img/bkg/webp/1440-about-bkg-2x.webp);
-}
-}
-.about-container-text {
-  max-width: 481px;
-}
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .no.webp .about {
+      background-image: url(../img/bkg/png/1440-about-bkg-2x.png);
+    }
+    .webp .about {
+      background-image: url(../img/bkg/webp/1440-about-bkg-2x.webp);
+    }
+  }
+  .about-container-text {
+    max-width: 481px;
+  }
 }
