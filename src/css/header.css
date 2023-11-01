@@ -243,20 +243,20 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) and (screen) {
-  .webp .mobile-menu {
-    background-image: url('../img/bkg/webp/mob-menu-2x.webp');
+@media screen {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .webp .mobile-menu {
+      background-image: url('../img/bkg/webp/mob-menu-2x.webp');
+    }
+    .no-webp .mobile-menu {
+      background-image: url('../img/bkg/png/mob-menu-2x.png');
+    }
+    .no-js .mobile-menu {
+      background-image: url('../img/bkg/png/mob-menu-2x.png');
+    }
   }
-  .no-webp .mobile-menu {
-    background-image: url('../img/bkg/png/mob-menu-2x.png');
-  }
-  .no-js .mobile-menu {
-    background-image: url('../img/bkg/png/mob-menu-2x.png');
-  }
-}
-
-@media screen and (min-width: 375px) {
 }
 
 @media screen and (min-width: 768px) {
@@ -280,27 +280,19 @@
   }
 }
 
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .webp .mobile-menu {
-    background-image: url('../img/bkg/webp/tab-menu-2x.webp');
-  }
-  .no-webp .mobile-menu {
-    background-image: url('../img/bkg/png/tab-menu-2x.png');
-  }
-  .no-js .mobile-menu {
-    background-image: url('../img/bkg/png/tab-menu-2x.png');
-  }
-}
-
-@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  .webp .mobile-menu {
-    background-image: url('../img/bkg/webp/tab-menu-2x.webp');
-  }
-  .no-webp .mobile-menu {
-    background-image: url('../img/bkg/png/tab-menu-2x.png');
-  }
-  .no-js .mobile-menu {
-    background-image: url('../img/bkg/png/tab-menu-2x.png');
+@media screen and (min-width: 768px) {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .webp .mobile-menu {
+      background-image: url('../img/bkg/webp/tab-menu-2x.webp');
+    }
+    .no-webp .mobile-menu {
+      background-image: url('../img/bkg/png/tab-menu-2x.png');
+    }
+    .no-js .mobile-menu {
+      background-image: url('../img/bkg/png/tab-menu-2x.png');
+    }
   }
 }
 

@@ -1,0 +1,82 @@
+<section class="order-section order-logo-bkg section">
+  <div class="order-girl container"></div>
+  <div id="order" class="container order-box">
+    <form class="order-form" action="">
+      <h2 class="order-text">
+        <span class="order-span">Your order</span> is our priority: Personalized
+        approach and quality of service
+      </h2>
+
+      <div class="order-input-box">
+        <input
+          class="order-input"
+          type="text"
+          pattern="[A-Za-zА-ЯҐІЇЄа-яґіїє\s]{3,}"
+          placeholder="Enter your full name"
+          required
+        />
+        <input
+          class="order-input"
+          type="email"
+          placeholder="Enter your email"
+          required
+        />
+        <textarea
+          class="order-coment"
+          name="order-coment"
+          id="order-coment"
+          placeholder="Comments"
+          novalid
+        ></textarea>
+      </div>
+      <div class="order-btn-box">
+        <button class="order-btn" type="submit">
+          Send
+          <svg class="order-svg" width="26" height="10">
+            <use href="./img/icon.svg#icon-order-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </form>
+
+    <picture class="order-logo">
+      <source
+        srcset="
+          ./img/order/1280/1280-order.webp   1x,
+          ./img/order/1280/1280-order2x.webp 2x
+        "
+        media="(min-width: 769px)"
+        type="image/webp"
+      />
+      <source
+        srcset="
+          ./img/order/1280/1280-order.jpg   1x,
+          ./img/order/1280/1280-order2x.jpg 2x
+        "
+        media="(min-width: 769px)"
+        type="image/jpeg"
+      />
+      <source
+        srcset="
+          ./img/order/tablet/tablet-order.webp    1x,
+          ./img/order//tablet/tablet-order2x.webp 2x
+        "
+        media="(max-width: 768px)"
+        type="image/webp"
+      />
+      <source
+        srcset="
+          ./img/order/tablet/tablet-order.jpg    1x,
+          ./img/order//tablet/tablet-order2x.jpg 2x
+        "
+        media="(max-width: 768px)"
+        type="image/jpeg"
+      />
+      <img
+        class="order-img"
+        src="../img/order/tablet/tablet-order.webp"
+        alt="vyshyvanka"
+      />
+    </picture>
+  </div>
+</section>
