@@ -220,6 +220,7 @@
   .order-box {
     padding-top: 916px;
     flex-direction: row-reverse;
+    padding-left: 64px;
   }
 }
 
