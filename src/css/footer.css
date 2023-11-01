@@ -153,6 +153,10 @@
     background-image: url(../img/bkg/webp/1280-footer-bkg.webp);
   }
 
+  .footer-menu-list {
+    margin-bottom: 117px;
+  }
+
   .footer-text {
     font-size: 64px;
     line-height: 1.15;
