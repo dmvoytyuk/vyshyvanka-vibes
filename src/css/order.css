@@ -1,3 +1,27 @@
+.order-box {
+  padding-top: 630px;
+  display: flex;
+  flex-direction: column;
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-image: url(../img/order/mobile/mob-girl-green.jpg);
+}
+
+.webp .order-box {
+  background-image: url(../img/order/mobile/mob-girl-green.webp);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .webp .order-box {
+    background-image: url(../img/order/mobile/mob-girl-green2x.webp);
+  }
+  .no-webp .order-box {
+    background-image: url(../img/order/mobile/mob-girl-green2x.jpg);
+  }
+}
+
 .order-form {
   max-width: 335px;
 }
@@ -106,33 +130,10 @@
   letter-spacing: -0.02em;
 }
 
-.order-box {
-  padding-top: 630px;
-  display: flex;
-  flex-direction: column;
-  background-size: 375px;
-  background-repeat: no-repeat;
-  background-image: url(../img/order/mobile/mob-girl-green.jpg);
-}
-
-.webp .order-box {
-  background-image: url(../img/order/mobile/mob-girl-green.webp);
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .webp .order-box {
-    background-image: url(../img/order/mobile/mob-girl-green2x.webp);
-  }
-  .no-webp .order-box {
-    background-image: url(../img/order/mobile/mob-girl-green2x.jpg);
-  }
-}
-
 .order-img {
-  height: 521px;
+  border-radius: 4px;
 }
+
 .order-logo {
   width: 100%;
   display: none;
@@ -149,9 +150,9 @@
     background-size: 768px;
   }
 
-  .order-img {
+  /* .order-img {
     width: 638px;
-  }
+  } */
 
   .order-logo-bkg {
     background-image: url(../img/bkg/png/tab-order-bkg.png);
@@ -168,7 +169,6 @@
     max-width: 542px;
     display: flex;
     flex-direction: column;
-
     margin-bottom: 100px;
   }
   .order-text {
@@ -209,7 +209,7 @@
   }
 
   .order-img {
-    width: 524px;
+    height: 521px;
   }
 
   .order-form {
